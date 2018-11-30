@@ -6,7 +6,8 @@ public class Rectangulator {
     Rectangle myRectangle = new Rectangle(length, width);
 
     String output = String.format("*** Your Rectangle ***\n\nLINE1  Length: %d\nWidth: %d\nArea: %d\nPerimeter: %d\n\n", myRectangle.length, myRectangle.width, myRectangle.getArea(), myRectangle.getPerimeter());
-
+      
     System.out.println(output);
+    System.out.println("DONE");
   }
 }
